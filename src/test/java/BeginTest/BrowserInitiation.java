@@ -6,14 +6,14 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
 public class BrowserInitiation {
-	 WebDriver driver;
-	String pathToFirefoxExecutable="D:\\Education\\Selenium Workspace\\geckodriver.exe";
-	String pathToChromeExecutable="D:\\Education\\Selenium Workspace\\chromedriver.exe";
-	String pathToIEExecutable="D:\\Education\\Selenium Workspace\\IEDriverServer.exe";
+	private static WebDriver driver;
+	private static String pathToFirefoxExecutable="D:\\Education\\Selenium Workspace\\geckodriver.exe";
+	private static String pathToChromeExecutable="D:\\Education\\Selenium Workspace\\chromedriver.exe";
+	private static String pathToIEExecutable="D:\\Education\\Selenium Workspace\\IEDriverServer.exe";
 	
 	
 	
-	public WebDriver createFirefoxDriver() {
+	public static WebDriver createFirefoxDriver() {
 		System.setProperty("webdriver.gecko.driver", pathToFirefoxExecutable);
 		
 	driver= new FirefoxDriver();
@@ -22,7 +22,7 @@ public class BrowserInitiation {
 		
 	}
 	
-public WebDriver createChromeDriver() {
+public static WebDriver createChromeDriver() {
 	System.setProperty("webdriver.chrome.driver", pathToChromeExecutable);
 		driver= new ChromeDriver();
 		return driver;
