@@ -2,16 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6508" started-at="2021-08-13T23:10:50 IST" finished-at="2021-08-13T23:10:57 IST">
+  <suite name="Default suite" duration-ms="15243" started-at="2021-08-14T00:38:06 IST" finished-at="2021-08-14T00:38:22 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6508" started-at="2021-08-13T23:10:50 IST" finished-at="2021-08-13T23:10:57 IST">
-      <class name="DumpData.TestBrowser">
-        <test-method status="PASS" signature="BrowserTest()[pri:0, instance:DumpData.TestBrowser@7d0587f1]" name="BrowserTest" duration-ms="6470" started-at="2021-08-13T23:10:50 IST" finished-at="2021-08-13T23:10:57 IST">
+    <test name="Default test" duration-ms="15243" started-at="2021-08-14T00:38:06 IST" finished-at="2021-08-14T00:38:22 IST">
+      <class name="BeginTest.LoginTest">
+        <test-method status="PASS" signature="openHomePage()[pri:0, instance:BeginTest.LoginTest@4f063c0a]" name="openHomePage" is-config="true" duration-ms="10914" started-at="2021-08-14T00:38:06 IST" finished-at="2021-08-14T00:38:17 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BrowserTest -->
-      </class> <!-- DumpData.TestBrowser -->
+        </test-method> <!-- openHomePage -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:BeginTest.LoginTest@4f063c0a]" name="Login" duration-ms="3324" started-at="2021-08-14T00:38:17 IST" finished-at="2021-08-14T00:38:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="LogoutAndKill()[pri:0, instance:BeginTest.LoginTest@4f063c0a]" name="LogoutAndKill" is-config="true" duration-ms="968" started-at="2021-08-14T00:38:21 IST" finished-at="2021-08-14T00:38:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutAndKill -->
+      </class> <!-- BeginTest.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
