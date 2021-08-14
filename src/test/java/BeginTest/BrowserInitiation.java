@@ -7,7 +7,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 
 public class BrowserInitiation {
 	private static WebDriver driver;
-	private static String pathToFirefoxExecutable="D:\\z003sy8d\\Softwares_Updated\\SeleniumWorkspace\\geckodriver.exe";
+	private static String pathToFirefoxExecutable="D:\\Education\\Selenium Workspace\\geckodriver.exe";
 	private static String pathToChromeExecutable="D:\\Education\\Selenium Workspace\\chromedriver.exe";
 	private static String pathToIEExecutable="D:\\Education\\Selenium Workspace\\IEDriverServer.exe";
 	

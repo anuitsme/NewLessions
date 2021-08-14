@@ -36,10 +36,10 @@ public class SignUpPage {
 
 	public static WebElement SignUpButton(WebDriver driver) {
 
-		return driver.findElement(By.linkText("Signup"));
+		return driver.findElement(By.xpath("//span[text()='Signup']"));
 	}
 	public static WebElement LoginButton(WebDriver driver) {
 
-		return driver.findElement(By.linkText("Login"));
+		return driver.findElement(By.xpath("//span[text()='Login']"));
 	}
 }

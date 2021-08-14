@@ -7,6 +7,8 @@ import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+
+import pages.Dashboard;
 import pages.HomePage;
 import pages.LoginPage;
 
@@ -35,9 +37,16 @@ public class LoginTest {
 		LoginPage.password(driver).sendKeys(password);
 		LoginPage.Login(driver).click();
 		Assert.assertEquals("Dashboard - PHPTRAVELS", driver.getTitle());
+		String authorLabel=Dashboard.AuthorLabel(driver).getText();
+		String UserName=Dashboard.UserName(driver).getText();
+		Assert.assertEquals(authorLabel, "Lionel");
+		Assert.assertEquals(UserName, "Lionel");
 	}
 	@AfterTest
 	public void LogoutAndKill() {
+		Dashboard.ClickLogoutLink(driver);
+		//JavascriptExecutor js=(JavascriptExecutor)driver;
+		//js.executeScript("document.querySelector(\"i[class='la la-power-off mr-2 text-color-6']\").click()");
 		driver.quit();
 	}
 		

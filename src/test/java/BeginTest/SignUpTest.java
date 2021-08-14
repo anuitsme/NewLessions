@@ -5,6 +5,7 @@ import java.util.Iterator;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.FluentWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -32,6 +33,7 @@ public class SignUpTest {
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+		
 		driver.manage().window().maximize();
 		Assert.assertEquals("PHPTRAVELS - PHPTRAVELS", driver.getTitle());
 	}
@@ -39,17 +41,22 @@ public class SignUpTest {
 	@Test(dataProvider = "SignUpData")
 	public void SignUp(String fname,String lname,String phone,String email, String customer, String password) {
 		HomePage.SignUpButton(driver).click();
-		Assert.assertEquals("Signup - PHPTRAVELS", driver.getTitle());
+		System.out.println(driver.getTitle());
+		Assert.assertEquals( driver.getTitle(),"Signup - PHPTRAVELS");
+		
 		SignUpPage.FirstName(driver).sendKeys(fname);
 		SignUpPage.Lastame(driver).sendKeys(lname);
 		SignUpPage.email(driver).sendKeys(email);
 		SignUpPage.phone(driver).sendKeys(phone);
 		SignUpPage.accountType(driver).selectByVisibleText(customer);
 		SignUpPage.password(driver).sendKeys(password);
+		SignUpPage.SignUpButton(driver).click();
+		Assert.assertEquals( driver.getTitle(),"Login - PHPTRAVELS");
 	}
 
 	@AfterMethod
 	public void teardown() {
+		
 		driver.quit();
 	}
 	
