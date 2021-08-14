@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="85977" started-at="2021-08-15T00:47:29 IST" finished-at="2021-08-15T00:48:55 IST">
+  <suite name="Default suite" duration-ms="84077" started-at="2021-08-15T01:06:14 IST" finished-at="2021-08-15T01:07:39 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="85977" started-at="2021-08-15T00:47:29 IST" finished-at="2021-08-15T00:48:55 IST">
+    <test name="Default test" duration-ms="84077" started-at="2021-08-15T01:06:14 IST" finished-at="2021-08-15T01:07:39 IST">
       <class name="BeginTest.VerifyProfileData">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:BeginTest.VerifyProfileData@7a187f14]" name="Setup" is-config="true" duration-ms="9776" started-at="2021-08-15T00:47:30 IST" finished-at="2021-08-15T00:47:40 IST">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:BeginTest.VerifyProfileData@7a187f14]" name="Setup" is-config="true" duration-ms="7558" started-at="2021-08-15T01:06:15 IST" finished-at="2021-08-15T01:06:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="verifyUserData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:BeginTest.VerifyProfileData@7a187f14]" name="verifyUserData" duration-ms="4364" started-at="2021-08-15T00:47:40 IST" data-provider="SignUpData" finished-at="2021-08-15T00:47:44 IST">
+        <test-method status="PASS" signature="verifyUserData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:BeginTest.VerifyProfileData@7a187f14]" name="verifyUserData" duration-ms="4141" started-at="2021-08-15T01:06:23 IST" data-provider="SignUpData" finished-at="2021-08-15T01:06:27 IST">
           <params>
             <param index="0">
               <value>
@@ -47,15 +47,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserData -->
-        <test-method status="PASS" signature="TearDwown()[pri:0, instance:BeginTest.VerifyProfileData@7a187f14]" name="TearDwown" is-config="true" duration-ms="1010" started-at="2021-08-15T00:47:44 IST" finished-at="2021-08-15T00:47:45 IST">
+        <test-method status="PASS" signature="TearDwown()[pri:0, instance:BeginTest.VerifyProfileData@7a187f14]" name="TearDwown" is-config="true" duration-ms="1991" started-at="2021-08-15T01:06:27 IST" finished-at="2021-08-15T01:06:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDwown -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:BeginTest.VerifyProfileData@7a187f14]" name="Setup" is-config="true" duration-ms="8502" started-at="2021-08-15T00:47:45 IST" finished-at="2021-08-15T00:47:54 IST">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:BeginTest.VerifyProfileData@7a187f14]" name="Setup" is-config="true" duration-ms="6701" started-at="2021-08-15T01:06:29 IST" finished-at="2021-08-15T01:06:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="verifyUserData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:BeginTest.VerifyProfileData@7a187f14]" name="verifyUserData" duration-ms="4595" started-at="2021-08-15T00:47:54 IST" data-provider="SignUpData" finished-at="2021-08-15T00:47:58 IST">
+        <test-method status="PASS" signature="verifyUserData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:BeginTest.VerifyProfileData@7a187f14]" name="verifyUserData" duration-ms="4210" started-at="2021-08-15T01:06:35 IST" data-provider="SignUpData" finished-at="2021-08-15T01:06:40 IST">
           <params>
             <param index="0">
               <value>
@@ -91,15 +91,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserData -->
-        <test-method status="PASS" signature="TearDwown()[pri:0, instance:BeginTest.VerifyProfileData@7a187f14]" name="TearDwown" is-config="true" duration-ms="863" started-at="2021-08-15T00:47:58 IST" finished-at="2021-08-15T00:47:59 IST">
+        <test-method status="PASS" signature="TearDwown()[pri:0, instance:BeginTest.VerifyProfileData@7a187f14]" name="TearDwown" is-config="true" duration-ms="1893" started-at="2021-08-15T01:06:40 IST" finished-at="2021-08-15T01:06:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDwown -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:BeginTest.VerifyProfileData@7a187f14]" name="Setup" is-config="true" duration-ms="9056" started-at="2021-08-15T00:47:59 IST" finished-at="2021-08-15T00:48:08 IST">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:BeginTest.VerifyProfileData@7a187f14]" name="Setup" is-config="true" duration-ms="6803" started-at="2021-08-15T01:06:41 IST" finished-at="2021-08-15T01:06:48 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="verifyUserData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:BeginTest.VerifyProfileData@7a187f14]" name="verifyUserData" duration-ms="4459" started-at="2021-08-15T00:48:08 IST" data-provider="SignUpData" finished-at="2021-08-15T00:48:13 IST">
+        <test-method status="PASS" signature="verifyUserData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:BeginTest.VerifyProfileData@7a187f14]" name="verifyUserData" duration-ms="4055" started-at="2021-08-15T01:06:48 IST" data-provider="SignUpData" finished-at="2021-08-15T01:06:52 IST">
           <params>
             <param index="0">
               <value>
@@ -135,15 +135,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserData -->
-        <test-method status="PASS" signature="TearDwown()[pri:0, instance:BeginTest.VerifyProfileData@7a187f14]" name="TearDwown" is-config="true" duration-ms="867" started-at="2021-08-15T00:48:13 IST" finished-at="2021-08-15T00:48:13 IST">
+        <test-method status="PASS" signature="TearDwown()[pri:0, instance:BeginTest.VerifyProfileData@7a187f14]" name="TearDwown" is-config="true" duration-ms="2001" started-at="2021-08-15T01:06:52 IST" finished-at="2021-08-15T01:06:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDwown -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:BeginTest.VerifyProfileData@7a187f14]" name="Setup" is-config="true" duration-ms="9006" started-at="2021-08-15T00:48:13 IST" finished-at="2021-08-15T00:48:22 IST">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:BeginTest.VerifyProfileData@7a187f14]" name="Setup" is-config="true" duration-ms="6779" started-at="2021-08-15T01:06:54 IST" finished-at="2021-08-15T01:07:01 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="verifyUserData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:BeginTest.VerifyProfileData@7a187f14]" name="verifyUserData" duration-ms="4524" started-at="2021-08-15T00:48:22 IST" data-provider="SignUpData" finished-at="2021-08-15T00:48:27 IST">
+        <test-method status="PASS" signature="verifyUserData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:BeginTest.VerifyProfileData@7a187f14]" name="verifyUserData" duration-ms="4045" started-at="2021-08-15T01:07:01 IST" data-provider="SignUpData" finished-at="2021-08-15T01:07:05 IST">
           <params>
             <param index="0">
               <value>
@@ -179,15 +179,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserData -->
-        <test-method status="PASS" signature="TearDwown()[pri:0, instance:BeginTest.VerifyProfileData@7a187f14]" name="TearDwown" is-config="true" duration-ms="867" started-at="2021-08-15T00:48:27 IST" finished-at="2021-08-15T00:48:28 IST">
+        <test-method status="PASS" signature="TearDwown()[pri:0, instance:BeginTest.VerifyProfileData@7a187f14]" name="TearDwown" is-config="true" duration-ms="1859" started-at="2021-08-15T01:07:05 IST" finished-at="2021-08-15T01:07:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDwown -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:BeginTest.VerifyProfileData@7a187f14]" name="Setup" is-config="true" duration-ms="8757" started-at="2021-08-15T00:48:28 IST" finished-at="2021-08-15T00:48:37 IST">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:BeginTest.VerifyProfileData@7a187f14]" name="Setup" is-config="true" duration-ms="6796" started-at="2021-08-15T01:07:07 IST" finished-at="2021-08-15T01:07:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="verifyUserData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:BeginTest.VerifyProfileData@7a187f14]" name="verifyUserData" duration-ms="4307" started-at="2021-08-15T00:48:37 IST" data-provider="SignUpData" finished-at="2021-08-15T00:48:41 IST">
+        <test-method status="PASS" signature="verifyUserData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:BeginTest.VerifyProfileData@7a187f14]" name="verifyUserData" duration-ms="4082" started-at="2021-08-15T01:07:14 IST" data-provider="SignUpData" finished-at="2021-08-15T01:07:18 IST">
           <params>
             <param index="0">
               <value>
@@ -223,15 +223,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserData -->
-        <test-method status="PASS" signature="TearDwown()[pri:0, instance:BeginTest.VerifyProfileData@7a187f14]" name="TearDwown" is-config="true" duration-ms="871" started-at="2021-08-15T00:48:41 IST" finished-at="2021-08-15T00:48:42 IST">
+        <test-method status="PASS" signature="TearDwown()[pri:0, instance:BeginTest.VerifyProfileData@7a187f14]" name="TearDwown" is-config="true" duration-ms="1953" started-at="2021-08-15T01:07:18 IST" finished-at="2021-08-15T01:07:20 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDwown -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:BeginTest.VerifyProfileData@7a187f14]" name="Setup" is-config="true" duration-ms="8389" started-at="2021-08-15T00:48:42 IST" finished-at="2021-08-15T00:48:50 IST">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:BeginTest.VerifyProfileData@7a187f14]" name="Setup" is-config="true" duration-ms="12767" started-at="2021-08-15T01:07:20 IST" finished-at="2021-08-15T01:07:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="verifyUserData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:BeginTest.VerifyProfileData@7a187f14]" name="verifyUserData" duration-ms="4274" started-at="2021-08-15T00:48:50 IST" data-provider="SignUpData" finished-at="2021-08-15T00:48:54 IST">
+        <test-method status="PASS" signature="verifyUserData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:BeginTest.VerifyProfileData@7a187f14]" name="verifyUserData" duration-ms="4054" started-at="2021-08-15T01:07:33 IST" data-provider="SignUpData" finished-at="2021-08-15T01:07:37 IST">
           <params>
             <param index="0">
               <value>
@@ -267,7 +267,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserData -->
-        <test-method status="PASS" signature="TearDwown()[pri:0, instance:BeginTest.VerifyProfileData@7a187f14]" name="TearDwown" is-config="true" duration-ms="983" started-at="2021-08-15T00:48:54 IST" finished-at="2021-08-15T00:48:55 IST">
+        <test-method status="PASS" signature="TearDwown()[pri:0, instance:BeginTest.VerifyProfileData@7a187f14]" name="TearDwown" is-config="true" duration-ms="1853" started-at="2021-08-15T01:07:37 IST" finished-at="2021-08-15T01:07:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDwown -->

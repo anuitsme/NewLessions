@@ -27,7 +27,7 @@ public class VerifyProfileData {
 	
 	@BeforeMethod
 	public void Setup() {
-		driver=BrowserInitiation.createFirefoxDriver();
+		driver=BrowserInitiation.createChromeDriver();
 		driver.get("https://www.phptravels.net");
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
