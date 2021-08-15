@@ -23,7 +23,7 @@ public class LoginTest {
 	@BeforeTest
 	public void openHomePage() {
 		
-		driver=BrowserInitiation.createFirefoxDriver();
+		driver=BrowserInitiation.createChromeDriver();
 		driver.get(url);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
