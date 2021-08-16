@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import pages.HomePage;
+import pages.HomePage_HotelsTab;
 
 public class TestBrowser {
 	@Test
@@ -16,18 +17,7 @@ public class TestBrowser {
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.phptravels.net/");
 		driver.manage().window().maximize();
-		HomePage.NavigateToBlog(driver);
-		HomePage.NavigateToFlights(driver);
-		HomePage.NavigateToHome(driver);
-		HomePage.NavigateToHotels(driver);
-		HomePage.NavigateToOffers(driver);
-		HomePage.NavigateToTours(driver);
-		HomePage.NavigateToVisa(driver);
-		HomePage.NavigateToHome(driver);
-		HomePage.SelectFlightsTab(driver);
-		HomePage.SelectToursTab(driver);
-		HomePage.SelectVisaTab(driver);
-		HomePage.SelectHotelsTab(driver);
+		HomePage_HotelsTab.selectCityFromDropdown(driver, "Delhi");
 	}
 
 }
