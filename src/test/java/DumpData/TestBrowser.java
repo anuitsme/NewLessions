@@ -1,5 +1,7 @@
 package DumpData;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
@@ -17,6 +19,7 @@ public class TestBrowser {
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.phptravels.net/");
 		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		HomePage_HotelsTab.selectCityFromDropdown(driver, "Delhi");
 	}
 
