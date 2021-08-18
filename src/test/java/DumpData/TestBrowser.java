@@ -21,6 +21,7 @@ public class TestBrowser {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		HomePage_HotelsTab.selectCityFromDropdown(driver, "Delhi");
+		HomePage_HotelsTab.selectDate("31", "August", 2022, driver);
 	}
 
 }
